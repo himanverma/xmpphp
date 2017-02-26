@@ -1,3 +1,5 @@
+Updated this library to to send custom stanza and retrieve raw output
+
 About
 ================================================================================
 XMPPHP is an elegant PHP library for XMPP (Jabber, Google Talk, Facebook etc).
