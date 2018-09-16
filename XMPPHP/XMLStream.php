@@ -464,6 +464,7 @@ class XMPPHP_XMLStream {
    */
   public function processUntil($event, $timeout=-1) {
     $start = time();
+    $this->until = array();
     if (!is_array($event))
       $event = array($event);
     $this->until[] = $event;
