@@ -659,7 +659,8 @@ class XMPPHP_XMLStream {
           if (!isset($this->until_count[$key])) {
             $this->until_count[$key] = 0;
           }
-          $this->until_count[$key] += 1;
+          $this->until_count[$key] = $this->until_count[$key] + 1;
+          // $this->until_count[$key] += 1;
           #$this->until[$key] = false;
         }
       }
